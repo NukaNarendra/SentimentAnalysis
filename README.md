@@ -1,15 +1,15 @@
 # Social Media Sentiment Analysis
 
-## 📌 Project Overview
+##  Project Overview
 This project aims to analyze Twitter sentiment data to understand brand perception using **Natural Language Processing (NLP) and machine learning techniques**. The project involves sentiment classification, clustering, and regression analysis to uncover trends in social media discussions.
 
-## 🎯 Objectives
+##  Objectives
 - **Sentiment Analysis**: Categorize tweets as **Positive, Negative, or Neutral** using `spaCy`, `TextBlob`, and `LangDetect`.
 - **Clustering**: Group tweets based on sentiment scores using **K-Means clustering**.
 - **Trend Analysis**: Examine sentiment trends over time to understand audience reactions.
 - **Regression Analysis**: Use **Linear Regression & ElasticNet** to explore relationships between sentiment polarity and subjectivity.
 
-## 📂 Dataset Description
+##  Dataset Description
 - **Columns:**
   - `Text` – The tweet content.
   - `Label` – Sentiment classification (Positive, Negative, Neutral).
@@ -40,7 +40,7 @@ This project aims to analyze Twitter sentiment data to understand brand percepti
    - Perform **Linear Regression** and **ElasticNet Regression** to analyze relationships between polarity and subjectivity.
    - Generate visualizations to interpret patterns.
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-repo/twitter-sentiment-analysis.git
@@ -65,13 +65,13 @@ This project aims to analyze Twitter sentiment data to understand brand percepti
 ✔ **Insights into brand perception** through sentiment clustering.
 ✔ **Predictive modeling** to analyze relationships between polarity and subjectivity.
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 - **Integrate Twitter API** to fetch real-time tweets.
 - **Analyze engagement metrics** (likes, retweets, comments) to improve insights.
 - **Use Topic Modeling (LDA)** to extract key discussion themes.
 - **Incorporate sales data** to analyze sentiment-sales correlation.
 
-## 💡 Conclusion
+##  Conclusion
 This project provides deep insights into **brand sentiment trends on Twitter**, helping businesses understand audience reactions. While it does not include direct sales analysis, it lays a strong foundation for **social media impact assessment**.
 
 ---
@@ -80,6 +80,4 @@ Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests to enhance the project.
 
 
-
-📩 **For queries, reach out via email or GitHub Issues.** 🚀
 
