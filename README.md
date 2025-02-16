@@ -75,11 +75,11 @@ This project aims to analyze Twitter sentiment data to understand brand percepti
 This project provides deep insights into **brand sentiment trends on Twitter**, helping businesses understand audience reactions. While it does not include direct sales analysis, it lays a strong foundation for **social media impact assessment**.
 
 ---
-Contributing
+## Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests to enhance the project.
 
-##Notice
+## Notice
 
 Due to memory constraints, the dataset is not provided as it is too large.
 
