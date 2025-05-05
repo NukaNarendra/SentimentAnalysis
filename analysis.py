@@ -16,8 +16,7 @@ features = scaler.fit_transform(df[['polarity', 'subjectivity']])
 kmeans = KMeans(n_clusters=5, random_state=42, n_init=10)
 df['cluster'] = kmeans.fit_predict(features)
 
-# Assign sentiment score to each cluster
-# (You can sort by average polarity per cluster for better mapping)
+
 cluster_avg = df.groupby('cluster')['polarity'].mean().sort_values()
 sentiment_mapping = {cluster: i+1 for i, cluster in enumerate(cluster_avg.index)}
 
@@ -41,19 +40,14 @@ from collections import Counter
 top_entities = dict(Counter(key_entities).most_common(10))
 
 
-!pip install sentence-transformers
 from sentence_transformers import SentenceTransformer
 
 model = SentenceTransformer('all-mpnet-base-v2')
-
-# Generate embeddings
 embeddings = model.encode(df['cleaned_text'].tolist())
 
-# Cluster embeddings
+
 kmeans = KMeans(n_clusters=5, random_state=42, n_init=10)
 df['topic_cluster'] = kmeans.fit_predict(embeddings)
-
-# Show top words per cluster
 from collections import Counter
 
 def get_dominant_words(texts, num_words=5):
