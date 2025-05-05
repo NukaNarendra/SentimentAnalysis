@@ -65,3 +65,5 @@ def get_dominant_words(texts, num_words=5):
 for cluster_id in range(5):
     texts = df[df['topic_cluster'] == cluster_id]['cleaned_text'].tolist()
     print(f"Cluster {cluster_id}: {get_dominant_words(texts)}")
+
+df.to_csv("final_output.csv", index=False)
