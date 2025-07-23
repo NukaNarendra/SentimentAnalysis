@@ -181,9 +181,6 @@ For suggestions, issues, or contributions, please:
 - Submit a pull request with proposed changes
 - Contact the maintainer at: `nukanarendra2006@gmail.com`
 
-## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ---
 
 *This project was developed as part of an effort to better understand public opinion through social media analysis using modern NLP techniques.*
