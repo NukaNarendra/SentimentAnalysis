@@ -179,10 +179,9 @@ The Streamlit framework makes it easy to extend the dashboard with additional vi
 For suggestions, issues, or contributions, please:
 - Open an issue on GitHub
 - Submit a pull request with proposed changes
-- Contact the maintainer at: `your.email@example.com`
+- Contact the maintainer at: `nukanarendra2006@gmail.com`
 
 ## 📄 License
-
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
